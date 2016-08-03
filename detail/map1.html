@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../resource/css/jquery.mobile.structure-1.4.5.min.css" />
+<link rel="stylesheet" href="../resource/css/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="../resource/css/hospital.css"/>
+<title>Hospital Appointment</title>
+</head>
+<body>
+<div id="restau" data-role="page" data-add-back-btn="true">
+	<div data-role="header"> 
+		<h1>Location On Map</h1>
+		<a href="Union_Medical_College_Hospital.php" data-role="button" data-icon="back" data-rel="back">Back</a>
+	</div> 
+	<div data-role="content">
+	       <!--use google map api to locate the hospital -->
+		  <iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3060.287441995171!2d116.41523501525205!3d39.91258319406972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f04fe07a3582b1%3A0xb5b4f37a382b9cdf!2z5YyX5Lqs5Y2P5ZKM5Yy76Zmi5Lic6Zmi!5e0!3m2!1szh-CN!2scn!4v1469844462785" 
+		  width="300" 
+		  height="400" 
+		  frameborder="1" 
+		  style="border:1" 
+		  allowfullscreen>
+		</iframe>
+	</div><!-- End of content -->
+	<div data-role="footer"></div>
+</div>
+</body>
+<script src="../resource/js/jquery-1.11.1.min.js"></script>
+<script src="../resource/js/jquery.mobile-1.4.5.min.js"/></script>
+</html>

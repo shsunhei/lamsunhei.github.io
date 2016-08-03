@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+*{ 
+	font-family:"Microsoft YaHei" !important;
+}
+
+#main .level{
+display:inline-bloc;
+background:url(../img/star.png) no-repeat  0 -182px;
+height:22px;
+text-indent:-999px;
+font-size:0px;
+}
+
+#main .two{
+width:50px;
+}
+
+#main .three{
+width:75px;
+}
+
+#main .four{
+width:100px;
+}
